@@ -17,5 +17,4 @@ The workflow is like: `nginx-->uwsgi-->django` and via supervisor management pro
 
 if you want run your own application, you can do the following:
 - First, move your django project to the `app` directory
-- Then, modify the `uwsgi.ini` like this:
-    - The `base` section at the bottom of the file is state the location of your wsgi.py. you will need to make sure the python path to the wsgi.py file is relative to that.
+- The `base` section at the bottom of the file `uwsgi.ini` is state the location of your wsgi.py. you will need to make sure the python path to the wsgi.py file is relative to that.
