@@ -7,7 +7,7 @@ The workflow is like: `nginx-->uwsgi-->django` and via supervisor management pro
 
 ### QuickStart
 
-#### Take these steps to quickly deploy a django application:
+take these steps to quickly deploy a django application:
 
 - git clone https://github.com/mengxunQAQ/nginx-uwsgi-django.git
 - cd nginx-uwsgi-django
@@ -18,5 +18,6 @@ The workflow is like: `nginx-->uwsgi-->django` and via supervisor management pro
 ### Usage
 
 if you want run your own application, you can do the following:
+
 - First, move your django project to the `app` directory
 - The `base` section at the bottom of the file `uwsgi.ini` is state the location of your wsgi.py. you will need to make sure the python path to the wsgi.py file is relative to that.
