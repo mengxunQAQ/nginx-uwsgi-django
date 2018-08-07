@@ -7,6 +7,8 @@ The workflow is like: `nginx-->uwsgi-->django` and via supervisor management pro
 
 ### QuickStart
 
+#### Take these steps to quickly deploy a django application:
+
 - git clone https://github.com/mengxunQAQ/nginx-uwsgi-django.git
 - cd nginx-uwsgi-django
 - sudo docker build -t webapp .
